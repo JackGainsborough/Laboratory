@@ -1,0 +1,45 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 10px;
+}
+
+body {
+    background: $dark;
+    background: linear-gradient(90deg, #000000 0%, #11052c 40%, #1d052c 60%, #130013 100%);
+    color: $withe;
+    font-family: $font-primary;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    margin: 15px 0;
+}
+
+h2 {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    margin: 15px 0;
+}
+
+h3 {
+    font-size: 2rem;
+    line-height: 2.6rem;
+    margin: 15px 0;
+}
+
+h4, h5, h6 {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    margin: 10px 0;
+}
+
+p {
+    line-height: 2rem;
+    font-size: 1.4rem;
+    margin: 5px 0;
+}

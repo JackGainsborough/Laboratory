@@ -3,7 +3,10 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: 14px;
+}
+
+:root {
+  font-size: 10px;
 }
 
 body {
@@ -15,27 +18,32 @@ body {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  line-height: 4rem;
   margin: 15px 0;
 }
 
 h2 {
-  font-size: 1.9rem;
-  margin: 10px 0;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  margin: 15px 0;
 }
 
 h3 {
-  font-size: 1.5rem;
-  margin: 10px 0;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  margin: 15px 0;
 }
 
 h4, h5, h6 {
-  font-size: 1.2rem;
-  margin: 5px 0;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  margin: 10px 0;
 }
 
 p {
-  line-height: 1.75rem;
+  line-height: 2rem;
+  font-size: 1.4rem;
   margin: 5px 0;
 }
 /*# sourceMappingURL=index.css.map */
