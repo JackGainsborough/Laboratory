@@ -82,9 +82,10 @@ p {
 
 button {
     padding: 10px 15px;
-    margin: 10px;
+    margin: 10px 0;
     border: none;
     outline: none;
+    letter-spacing: 1px;
     font-size: 1.6rem;
     color: $withe;
     background: $primary;
@@ -93,4 +94,13 @@ button {
     &:hover, &:active, &:focus {
         background: $primary-dark;
     }
+}
+
+/* * * * * * * * * * * * */
+
+footer {
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    background: $dark;
 }
