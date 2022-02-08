@@ -15,6 +15,14 @@ a, a:active, a:focus, a:hover {
   text-decoration: none;
 }
 
+a.link, a:active.link, a:focus.link, a:hover.link {
+  color: #5897f7;
+}
+
+a.link:hover, a:active.link:hover, a:focus.link:hover, a:hover.link:hover {
+  text-decoration: underline;
+}
+
 body {
   background: #11050b;
   background: -webkit-gradient(linear, left top, right top, from(#04000f), color-stop(40%, #11052c), color-stop(60%, #1d052c), to(#130013));
@@ -23,6 +31,7 @@ body {
 }
 
 h1 {
+  font-family: 'Lobster', cursive;
   font-size: 3rem;
   line-height: 4rem;
   margin: 15px 0;
@@ -43,6 +52,7 @@ h1::after {
 }
 
 h2 {
+  font-family: 'Lobster', cursive;
   font-size: 2.4rem;
   line-height: 3.2rem;
   margin: 15px 0;
