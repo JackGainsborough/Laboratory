@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Verdana;
 }
 :root {
     font-size: 10px;
@@ -16,7 +17,6 @@ body {
     background: $dark;
     background: linear-gradient(90deg, #04000f 0%, #11052c 40%, #1d052c 60%, #130013 100%);
     color: $withe;
-    font-family: $font-primary;
 }
 
 h1 {
@@ -50,6 +50,7 @@ h2::after {
 }
 
 h3 {
+    font-family: 'Lobster', cursive;
     font-size: 2rem;
     line-height: 2.6rem;
     margin: 15px 0;
@@ -65,6 +66,7 @@ h3::after {
 }
 
 h4, h5, h6 {
+    font-family: 'Lobster', cursive;
     font-size: 1.6rem;
     line-height: 2.2rem;
     margin: 10px 0;
@@ -88,11 +90,13 @@ button {
     letter-spacing: 1px;
     font-size: 1.6rem;
     color: $withe;
-    background: $primary;
+    background: $primary-dark;
+    background: linear-gradient(135deg, $primary-dark 0%, $primary 45%,  $primary 55%, $primary-dark 100%);
     cursor: pointer;
 
     &:hover, &:active, &:focus {
-        background: $primary-dark;
+        background: $primary;
+        background: linear-gradient(135deg, $primary-dark 0%, $primary 7%,  $primary 85%, $primary-dark 100%);
     }
 }
 
@@ -100,6 +104,7 @@ button {
 
 footer {
     margin-top: 50px;
+    padding: 5px 15px;
     width: 100%;
     height: 200px;
     background: $dark;
